@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Azuki</title>
+
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<div class="desktop-mirror" data-audio="media/intro-music.mp3" data-id="desktop-mirror-a">
+
+    <div class="preview">
+        <ul class="preview__list">
+            <li class="preview__item">
+                <h2>WELCOME TO THE ALLEY</h2>
+                <p>The mystical red bean.</p>
+                <p>Few have ever seen it, fewer have ever taken one.</p>
+                <p>Are you ready to take the red bean?</p>
+            </li>
+            <li class="preview__item hidden">
+                <h2>THROUGH THE GATE</h2>
+                <p>The mystical red bean.</p>
+                <p>Few have ever seen it, fewer have ever taken one.</p>
+                <p>Are you ready to take the red bean?</p>
+            </li>
+            <li class="preview__item hidden">
+                <h2>WELCOME TO THE ALLEY</h2>
+                <p>The mystical red bean.</p>
+                <p>Few have ever seen it, fewer have ever taken one.</p>
+                <p>Are you ready to take the red bean?</p>
+            </li>
+            <li class="preview__item hidden">
+                <h2>WELCOME TO THE ALLEY 2</h2>
+                <p>The mystical red bean.</p>
+                <p>Few have ever seen it, fewer have ever taken one.</p>
+                <p>Are you ready to take the red bean?</p>
+            </li>
+        </ul>
+        <button class="preview__btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill="white" fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+        </button>
+    </div>
+
+    <div class="pin-container">
+        <div class="pin" data-audio="media/beep.mp3" style="left: 15%;bottom: 28%;">
+            <div class="pin__dot">
+                <div class="pin__circle"></div>
+                <div class="pin__pulse"></div>
+            </div>
+            <div class="pin__title">
+                There’s a lot of rumors about what’s going on beneath the alley... Some say it looks like your hidden folder on OS...
+                There’s a lot of rumors about what’s going on beneath the alley... Some say it looks like your hidden folder on OS...
+            </div>
+        </div>
+        <div class="pin" data-audio="media/beep2.wav" style="right: 24%;bottom: 50%;">
+            <div class="pin__dot">
+                <div class="pin__circle"></div>
+                <div class="pin__pulse"></div>
+            </div>
+            <div class="pin__title">
+                There’s a lot of rumors about what’s going on beneath the alley... Some say it looks like your hidden folder on OS...
+            </div>
+        </div>
+    </div>
+
+    <div class="desktop-mirror__title">
+        THE ALLEY
+    </div>
+
+    <div class="bottom-nav">
+        <button class="all-pin-hover" data-audio="media/hover-all-pin.wav" data-id="all-pin-hover"><span></span></button>
+        <button class="btn-sound">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-3 h-3"><path fill-rule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM12.293 7.293a1 1 0 011.414 0L15 8.586l1.293-1.293a1 1 0 111.414 1.414L16.414 10l1.293 1.293a1 1 0 01-1.414 1.414L15 11.414l-1.293 1.293a1 1 0 01-1.414-1.414L13.586 10l-1.293-1.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </button>
+    </div>
+
+</div>
+<div class="mobile-mirror">
+    <div class="mobile-mirror__img" style="background: url(images/image.jpg) no-repeat;"></div>
+    <div class="mobile-mirror__slider">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-size="1" data-position="center center">
+                <div class="mobile-mirror__content">
+                    <h2>WELCOME TO THE ALLEY</h2>
+                    <p>The mystical red bean.</p>
+                    <p>Few have ever seen it, fewer have ever taken one.</p>
+                    <p>Are you ready to take the red bean?</p>
+                </div>
+            </div>
+            <div class="swiper-slide" data-size="1.3" data-position="left 10% bottom 10%">
+                <div class="mobile-mirror__content">
+                    <h2>WELCOME TO THE ALLEY 2</h2>
+                    <p>The mystical red bean.</p>
+                    <p>Few have ever seen it, fewer have ever taken one.</p>
+                    <p>Are you ready to take the red bean?</p>
+                </div>
+            </div>
+            <div class="swiper-slide" data-size="1.5" data-position="bottom 10px right 20px">
+                <div class="mobile-mirror__content">
+                    <h2>WELCOME TO THE ALLEY 3</h2>
+                    <p>The mystical red bean.</p>
+                    <p>Few have ever seen it, fewer have ever taken one.</p>
+                    <p>Are you ready to take the red bean?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-mirror__pagination"></div>
+
+    </div>
+</div>
+<div class="audio-wrapper"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
